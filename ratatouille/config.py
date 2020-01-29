@@ -19,3 +19,5 @@ class RatatouilleConfig(ConfigExtension):
         # set some default config values
         config.setdefault('rattail.mail', 'emails', 'ratatouille.emails')
         config.setdefault('tailbone', 'menus', 'ratatouille.web.menus')
+
+        config.setdefault('ratatouille', 'ctdb.url', '')

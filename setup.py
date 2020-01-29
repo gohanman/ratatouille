@@ -46,6 +46,7 @@ requires = [
     'psycopg2',                         # 2.6.2
     'rattail',                          # 0.7.25
     'Tailbone',                         # 0.5.29
+    'pymssql',                          # 2.1.0
 ]
 
 
