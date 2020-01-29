@@ -10,6 +10,7 @@ def includeme(config):
 
     # core views
     config.include('ratatouille.web.views.common')
+    config.include('ratatouille.web.views.recipes')
     config.include('tailbone.views.auth')
     config.include('tailbone.views.tables')
     config.include('tailbone.views.upgrades')

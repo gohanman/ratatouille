@@ -11,6 +11,17 @@ def simple_menus(request):
 
     menus = [
         {
+            'title': 'Ratatouille',
+            'type': 'menu',
+            'items': [
+                {
+                    'title': 'Recipes',
+                    'url': url('recipes'),
+                    'perm': 'products.list',
+                }
+            ]
+        },
+        {
             'title': "Products",
             'type': 'menu',
             'items': [
