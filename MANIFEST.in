@@ -1,0 +1,8 @@
+# -*- mode: conf -*-
+
+include *.rst
+
+recursive-include ratatouille/web/static *.css
+recursive-include ratatouille/web/static *.js
+
+recursive-include ratatouille/web/templates *.mako
